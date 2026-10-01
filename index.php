@@ -11,6 +11,7 @@
         $hargaTiket = 1500000;
         $sisaTiket = 25;
         $sudahSoldOut = false;
+        $kategoriTiket = "Festival";
         echo "Selamat datang di TiketWar - War tiket anti ribet!";
     ?>
     <p>Konser: <?php echo $namaKonser; ?></p>
