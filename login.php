@@ -15,8 +15,8 @@ if (isset($_SESSION["admin"])) {
     <?php if (isset($_SESSION["error"])) { ?>
         <p style="color:red;">
             <?php
-            echo $_SESSION["error"];
-            unset($_SESSION["error"]);
+                echo $_SESSION["error"];
+                unset($_SESSION["error"]);
             ?>
         </p>
     <?php } ?>
